@@ -1,0 +1,48 @@
+.education {
+    &__log {
+        display: inline;  
+        background-repeat: no-repeat;;      
+        background-position: center bottom 1px;
+        background-size: 100% 7px;
+        background-image: linear-gradient(to right, rgba(221, 81, 212, 0.8), rgba(124, 78, 171, 1));
+        border-radius: 15px;
+        
+    }
+
+    &__opinion {
+        width: 846px;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &__cards {
+        display:flex;
+        margin-top: 60px;
+        // flex-direction:column;ДЛЯ МОБ
+
+        &_card {
+            position: relative;
+            width: 290px;
+            margin: 0 auto;
+            &_img {
+                width: 70px;
+                height: 70px;
+                background-color: #CF51CE;
+                border-radius: 15px;
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+                
+            }
+            p {
+                font-size: 18px;
+                color: #331A2FCC;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,55 @@
+body {
+  background: url(../img/bg/bg_nav.png) top center no-repeat;
+  @media(max-width: 1280px) {
+    background: none;
+}
+}
+.container {
+  position: relative;
+  width: 1530px;
+  margin: 0 auto;
+  @media (max-width: 1280px) {
+    width:1200px;
+  }
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    @media (max-width: 1280px){
+      font-size: 46px;
+    }
+  }
+  span{
+    color: #DD51D4;
+  }
+  h2 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    @media (max-width: 1280px){
+      font-size: 40px;
+    }
+  }
+}
+
+  
+
+
+@import '../components/Navbar/Navbar.scss' ;
+@import '../components/History/History.scss';
+@import '../components/Education/Education.scss';
+@import '../components/Course/Course.scss';
+
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+
+
